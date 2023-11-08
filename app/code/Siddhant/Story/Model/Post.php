@@ -1,5 +1,6 @@
 <?php
 namespace Siddhant\Story\Model;
+
 use Magento\Framework\Model\AbstractModel;
 
 class Post extends AbstractModel {

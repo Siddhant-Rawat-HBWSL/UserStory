@@ -7,7 +7,7 @@ use Magento\Framework\Model\ResourceModel\Db\Context;
 class Resource extends AbstractDb {
 
     protected function __construct(Context $context) {
-        parent::_construct($context);
+        parent::__construct($context);
     }
 
     protected function _construct() {

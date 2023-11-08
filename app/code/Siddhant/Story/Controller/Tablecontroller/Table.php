@@ -1,5 +1,5 @@
 <?php
-namespace Siddhant\Story\Controller\Table;
+namespace Siddhant\Story\Controller\Tablecontroller;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Action\Context;

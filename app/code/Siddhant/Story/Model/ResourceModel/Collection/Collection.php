@@ -1,5 +1,6 @@
 <?php
 namespace Siddhant\Story\Model\ResourceModel\Collection;
+
 use \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection {
