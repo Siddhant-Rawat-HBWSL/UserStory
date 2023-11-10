@@ -4,8 +4,8 @@
     <table name="employee_table" resource="default" engine="innodb" comment="Employee Product Table">
 
         <column xsi:type="int" name="id" unsigned="false" nullable="false" identity="true" comment="Employee ID"/>
-        <column xsi:type="varchar" name="firstName"  nullable="false" comment="Employee First Name"/>
-        <column xsi:type="varchar" name="lastName" nullable="false" comment="Employee Last Name" />
+        <column xsi:type="varchar" name="first"  nullable="false" comment="Employee First Name"/>
+        <column xsi:type="varchar" name="last" nullable="false" comment="Employee Last Name" />
         <column xsi:type="varchar" name="email" nullable="false" comment="Employee Email" />
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id"/>
