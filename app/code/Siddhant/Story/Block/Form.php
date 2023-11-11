@@ -25,6 +25,15 @@ class Form extends Template {
 
         try {
             if($data) {
+                // dump($data["address"]);
+                if(strlen($data["first"]) > 30 || strlen($data["last"]) > 30) {
+                    $this->messageManager->addErrorMessage(__("Length exceeded!!"));
+                    return;
+                }
+                if(strlen($data["address"]) < 30) {
+                    $this->messageManager->addErrorMessage(__("Length too short!!"));
+                    return;
+                }
                 $model = $this->postFactory->create();
                 $model->setData($data)->save();
                 $this->messageManager->addSuccessMessage(__("Data added successfully"));
@@ -34,7 +43,7 @@ class Form extends Template {
         }
     }
 
-    public function actionUrl() {
-        return $this->getUrl('story/tablecontroller/table');
-    }
+    // public function actionUrl() {
+    //     return $this->getUrl('story/tablecontroller/table');
+    // }
 }

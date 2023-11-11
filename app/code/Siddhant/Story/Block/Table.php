@@ -17,4 +17,8 @@ class Table extends Template {
     public function getCollection() {
         return $this->collectionFactory->create();
     }
+
+    public function getDeleteAction() {
+        return $this->getUrl("story/deletecontroller/delete");
+    }
 }

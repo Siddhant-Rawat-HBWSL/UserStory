@@ -10,16 +10,22 @@
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Action</th>
         </tr>
     </thead>
 
     <?php foreach( $collection as $item ) : ?>
         <tbody>
             <tr>
-                <td><?php echo $item->getId(); ?></td>
+                <td><?php echo "emp" . $item->getId(); ?></td>
                 <td><?php echo $item->getFirst(); ?></td>
                 <td><?php echo $item->getLast(); ?></td>
                 <td><?php echo $item->getEmail(); ?></td>
+                <td><?php echo $item->getAddress(); ?></td>
+                <td><?php echo $item->getPhone(); ?></td>
+                <td><a href="<?php echo $block->getDeleteAction() . 'id/' . $item->getId() ?>">Delete</a></td>
             </tr>
         </tbody>
     <?php endforeach; ?>
