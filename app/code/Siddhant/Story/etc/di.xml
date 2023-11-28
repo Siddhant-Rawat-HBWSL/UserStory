@@ -6,7 +6,15 @@
     </type>
 
     <type name="Magento\Theme\Block\Html\Breadcrumbs">
-        <plugin name="price" type="Siddhant\Story\Plugin\BreadcrumbPlugin" />
+        <plugin name="breadcrumb" type="Siddhant\Story\Plugin\BreadcrumbPlugin" />
+    </type>
+
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="footer" type="Siddhant\Story\Plugin\FooterPlugin" />
+    </type>
+
+    <type name="Magento\Theme\Block\Html\Header">
+        <plugin name="header" type="Siddhant\Story\Plugin\HeaderPlugin" />
     </type>
     
     <type name="Siddhant\Story\Sid\Test">
