@@ -1,3 +1,11 @@
 <config  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <!-- <preference for="Magento\Catalog\Api\Data\CategoryInterface" type="Siddhant\Story\Mod1\CategoryInterfacePreference" /> -->
+
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="price" type="Siddhant\Story\Plugin\PricePlugin" />
+    </type>
+
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="price" type="Siddhant\Story\Plugin\BreadcrumbPlugin" />
+    </type>
 </config>
