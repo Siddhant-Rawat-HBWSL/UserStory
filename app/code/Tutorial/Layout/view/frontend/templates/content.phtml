@@ -1,0 +1,10 @@
+<h2><?php echo $block->getSubtitle() ?></h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+<?php 
+    echo $block->getChildHtml('layout_note');
+
+    echo $block->getNodeHtml();
+
+    echo $block->getChildHtml('cms_block');
+?>

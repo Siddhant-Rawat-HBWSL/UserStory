@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <!-- 
+        can disable observer using disable="true" from another module(same module will also work) coz, it doesn't makes sense to 
+        disable an observer from the same module. Maybe the observer is in a vendor module or any third party module that you
+        don't want to touch it lol.
+        Same for plugin tho.
+    -->
+    <event name="dispatch_event_example">
+        <observer name="content_observer" instance="Tutorial\DispatchEvent\Observer\Content" />
+    </event>
+</config>

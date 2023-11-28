@@ -1,0 +1,1 @@
+console.log('Tutorial_HeadCssJs::js/contact.js');
