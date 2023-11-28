@@ -1,0 +1,14 @@
+<div>
+    <p>Data from template op</p>
+</div>
+
+<ul>
+    <!-- getTopic(), getDescription() => magic method -->
+    <li><?php echo $block->getTopic() ?></li>
+    <li><?php echo $block->getDescription() ?></li>
+    <li>
+        <a href="<?php echo $block->getLink() ?>" >
+            Link to Google (Passing data from observer)
+        </a>
+    </li>
+</ul>
