@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <!-- before rendering the content of the page the layout will process the blocks and will generate blocks and after it generates
+        the blocks, we can remove or add them
+    -->
+    <events name="layout_generate_blocks_after">
+        <observer name="add_remove_block" instance="Tutorial\AddRemoveBlocks\Observer\Example" />
+    </events>
+</config>
