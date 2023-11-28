@@ -8,4 +8,15 @@
     <type name="Magento\Theme\Block\Html\Breadcrumbs">
         <plugin name="price" type="Siddhant\Story\Plugin\BreadcrumbPlugin" />
     </type>
+    
+    <type name="Siddhant\Story\Sid\Test">
+        <arguments>
+            <argument name="arr" xsi:type="array">
+                <item name="0" xsi:type="number">0</item>
+                <item name="1" xsi:type="number">1</item>
+                <item name="2" xsi:type="number">2</item>
+            </argument>
+            <argument name="str" xsi:type="string">Using di.xml</argument>
+        </arguments>
+    </type>
 </config>

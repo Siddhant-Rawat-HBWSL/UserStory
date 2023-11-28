@@ -7,7 +7,11 @@ class BreadcrumbPlugin {
 
     public function beforeAddCrumb(Breadcrumbs $breadcrumbs, $crumbName, $crumbInfo) {
 
-        $crumbName = "Hummingbird" . $crumbName;
+        // $crumbName = "Hummingbird" . $crumbName;
+        // dump($crumbName);
+        
+        $crumbInfo["label"] = "Hummingbird " . $crumbInfo["label"];
+        // dump($crumbInfo);
         return [$crumbName, $crumbInfo];
     }
 }
