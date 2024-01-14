@@ -1,0 +1,7 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="catalog.navigation.renderer">
+            <block class="Siddhant\Story17\Block\Navigation\Filter\Rating" name="custom_rating_filter" template="Siddhant_Story17::layer/filter/rating.phtml"/>
+        </referenceBlock>
+    </body>
+</page>

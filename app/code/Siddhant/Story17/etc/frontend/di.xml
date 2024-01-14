@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Layer\FilterList">
+        <plugin name="rating-filter-category-navigation" type="Siddhant\Story17\Plugin\FilterList" />
+    </type>
+</config>

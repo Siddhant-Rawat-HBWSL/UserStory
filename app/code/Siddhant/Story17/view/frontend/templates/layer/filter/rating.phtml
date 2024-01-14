@@ -1,0 +1,10 @@
+<div class="filter-options">
+    <div class="filter-options-title"><?= "temp Page" ?></div>
+    <ol class="items">
+        <?php foreach ($block->getFilters() as $filter): ?>
+            <li>
+                <?= $filter ?>
+            </li>
+        <?php endforeach; ?>
+    </ol>
+</div>
