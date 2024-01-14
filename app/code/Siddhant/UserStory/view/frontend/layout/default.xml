@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   
+    <!-- <body>
+        <referenceContainer name="header-wrapper">
+            <block class="Magento\Catalog\Block\Product\Image" after="minicart" template="Magento_Catalog::product/image_with_borders.phtml" />
+        </referenceContainer>
+    </body> -->
+
+    <body>
+        <referenceContainer name="page.wrapper">
+            <block class="Magento\Framework\View\Element\Template" before="-" name="htmlblock.allpages" template="Siddhant_UserStory::allpages.phtml"  />
+        </referenceContainer>
+    </body>
+</page>
