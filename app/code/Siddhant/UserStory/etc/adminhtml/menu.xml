@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-    <menu>
-        <add id="Siddhant_UserStory::custom_menu" title="Custom Menu" module="Siddhant_UserStory" sortOrder="200" resource="Siddhant_UserStory::custom_menu" />
-        <add id="Siddhant_UserStory::custom_submenu" title="Custom Submenu" module="Siddhant_UserStory" sortOrder="10" parent="Siddhant_UserStory::custom_menu" action="siddhant_userStory/customcontroller/action" resource="Siddhant_UserStory::custom_submenu"/>
-    </menu>
-</config>
