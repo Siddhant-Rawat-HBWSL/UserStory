@@ -1,0 +1,19 @@
+{
+    "Story22_Popup": {
+        "column": {
+            "popup_id": true,
+            "name": true,
+            "content": true,
+            "created_at": true,
+            "updated_at": true,
+            "is_active": true,
+            "timeout": true
+        },
+        "index": {
+            "STORY22_POPUP_NAME_CONTENT": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
