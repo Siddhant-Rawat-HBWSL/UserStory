@@ -19,7 +19,7 @@ class Popup extends AbstractModel implements PopupInterface
 
     protected function _construct()
     {
-        $this->_eventPrefix = "Siddhant_Story22";
+        $this->_eventPrefix = "siddhant_story22";
         $this->_eventObject = "popup";
         $this->_idFieldName = "popup_id";
         $this->_init(PopupResource::class);

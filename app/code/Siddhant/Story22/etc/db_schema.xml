@@ -2,7 +2,7 @@
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
 
-        <table name="Siddhant_Story22" resource="default" engine="innodb"
+        <table name="siddhant_story22" resource="default" engine="innodb"
                 comment="Story22 - Popup Table">
                 <column xsi:type="smallint" name="popup_id" unsigned="false" nullable="false"
                         identity="true"

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route id="siddhant_story22" frontName="popup">
+        <route id="siddhant_story22" frontName="siddhant_story22">
             <module name="Siddhant_Story22" before="Magento_Backend" />
         </route>
     </router>
